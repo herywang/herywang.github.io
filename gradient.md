@@ -1,0 +1,1 @@
+## Welcome to my blog of: gradient descient.
