@@ -3,3 +3,4 @@ theme: jekyll-theme-slate
 title: My Bolg~~
 email: wangheng673@gmail.com
 url: "https://deepbrainwh.github.io"
+markdown: kramdown
