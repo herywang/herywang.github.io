@@ -1,8 +1,8 @@
 ## herywang home page
 
 ## 教育背景
-2020-09 ～ 2023-03  西北工业大学    硕士    计算机技术
-2016-09 ～ 2020-07  湖北文理学院    本科    计算机科学与技术
+2020-09 ～ 2023-03  西北工业大学    硕士    计算机技术  
+2016-09 ～ 2020-07  湖北文理学院    本科    计算机科学与技术  
 * [Gradient Denscient](./gradient.md)
 * welcome
 You can use the [editor on GitHub](https://github.com/deepBrainWH/deepBrainWH.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
