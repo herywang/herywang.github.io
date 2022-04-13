@@ -11,4 +11,6 @@ Apache-Shiro中对接口访问控制最常用的两种配置是：`anno`和`auth
     }
 ```
 
-Apache-Shiro的生命周期从Spring的Configure类中通过注入`ShiroFilterFactoryBean`类开始, 其初始化需要依赖`CredentialsMatcher`, `SecurityManager` 以及自定义的 `AuthorizingRealm`等类信息, 类之间的聚合关系如下图所示: 
+Apache-Shiro的生命周期从Spring的Configure类中通过注入`ShiroFilterFactoryBean`类开始, 其初始化需要依赖`CredentialsMatcher`, `SecurityManager` 以及自定义的 `AuthorizingRealm`等类信息, 类之间的聚合关系如下图所示:   
+![UML图](imgs/note2.1.jpg)  
+显然可见, ShiroFilterFactoryBean就是一个过滤器链, 里面具体怎么实现靠用户自定义的securityManager等相关类中的逻辑实现.  
