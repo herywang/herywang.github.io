@@ -97,10 +97,10 @@ public enum DefaultFilter {
 
 看一下`SpringShiroFilter`类结构:  
 
-<img src="./imgs/note2.3.jpg" width=400px />  
+<img src="./imgs/note2.3.jpg" style="width:400px"/>  
 
 由于`SpringShiroFilter`中只有一个构造方法, 因此直接往上面继承的类中找`doFilter()`实现方法, 最终在父类`OncePerRequestFilter`类中看到了`doFilter()`的实现:  
 
-<img src="./imgs/note2.4.jpg" width=500px />  
+![](imgs/note2.4.jpg)
 
 到此为止Apache-Shiro整个过滤器链路相信基本上彻底清楚了.  
