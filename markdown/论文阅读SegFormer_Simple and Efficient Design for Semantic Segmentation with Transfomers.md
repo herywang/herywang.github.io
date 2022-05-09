@@ -18,14 +18,6 @@
 > 2. 使用了轻量级的纯粹多层感知机解码模块(All-MLP decoder)，不在需要复杂且计算消耗高的模块即可产生强大的表征能力。
 > 3. SegFormer在公开的三种图像语义分割数据集上获得了最先进的效率，包括：识别效率、准确率和鲁棒性。
 
-
-
-
-
-
-
-
-
 ## Partial Reference
 
 [[1] Fully Convolutional Networks for Semantic Segmentation](https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html)
